@@ -30,8 +30,6 @@
     "config": "^3.3.2",
     "express": "^4.17.1",
     "jest": "^26.5.3",
-    "sqlite-async": "^1.1.0",
-    "sqlite3": "^5.0.0",
     "ts-jest": "^26.4.1",
     "ts-node": "^9.0.0",
     "tslint": "^6.1.3",
