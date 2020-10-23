@@ -1,0 +1,40 @@
+{
+  "name": "birthday-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "export NODE_ENV=development && jest",
+    "run": "ts-node ./index.ts"
+  },
+  "jest": {
+    "transform": {
+      ".(ts)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  },
+  "author": "Gleb Vasylenko",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@types/config": "0.0.36",
+    "@types/jest": "^26.0.14",
+    "axios": "^0.20.0",
+    "babel-jest": "^26.5.2",
+    "babel-preset-env": "^1.7.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "jest": "^26.5.3",
+    "sqlite-async": "^1.1.0",
+    "sqlite3": "^5.0.0",
+    "ts-jest": "^26.4.1",
+    "ts-node": "^9.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.3"
+  }
+}
